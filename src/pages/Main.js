@@ -1,16 +1,15 @@
 import React from 'react'
-import Header from '../app-mercatodo/web/src/components/layout/header/Header'
-import Footer from '../app-mercatodo/web/src/components/layout/footer/Footer'
-import { Main } from '../components/Main/Main'
-
-function PagMain() {
+import Header from '../components/layout/header/Header'
+import Footer from '../components/layout/footer/Footer'
+import PagMain from '../components/pagMain/PagMain'
+function Main() {
   return (
     <div>
       <Header />
-      <Main />
+      <PagMain />
       <Footer />
     </div>
   )
 }
 
-export { PagMain }
+export default Main
